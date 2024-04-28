@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha256-xobqTM5/Y77JN2G4O3GffpLzOBM/AUz8b9arLvFg+qI=" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="weather-container">
+        <h1><i class="fas fa-cloud-sun"></i> Weather App</h1>
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Enter city">
+            <div class="dropdown">
+                <button onclick="toggleDropdown()" class="dropbtn"><i class="fas fa-caret-down"></i></button>
+                <div id="cityDropdown" class="dropdown-content">
+                    <a href="#" onclick="selectCity('London')">London</a>
+                    <a href="#" onclick="selectCity('New York')">New York</a>
+                    <a href="#" onclick="selectCity('Tokyo')">Tokyo</a>
+                    <!-- Add more cities as needed -->
+                </div>
+            </div>
+            <button onclick="getWeather()"><i class="fas fa-search"></i> Get Weather</button>
+        </div>
+        <div id="weatherInfo"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

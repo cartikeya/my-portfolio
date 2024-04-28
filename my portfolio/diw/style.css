@@ -1,0 +1,27 @@
+.anchor{
+    margin-left: auto;
+}
+.mass-body{
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/happy-diwali-dark-banner-with-diya-fireworks_1017-28606.jpg');
+    background-size: cover;
+    color: white;
+}
+.heading-diwali{
+    border: 2px black solid;
+    padding-left: 850px;
+
+}
+.item-nav{
+    color: white;
+}
+.my-logo{
+    color: aliceblue;
+}
+.home-left{
+    width: 50vw;
+}
+.home-right{
+    width: 50vw;
+    padding-left:100px ;
+}

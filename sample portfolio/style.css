@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&family=Source+Code+Pro&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.navbar{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.0); /* Adjust the last value (0.5) for transparency */
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;  
+}
+.navbar-left{
+    padding-left: 30px;
+
+}
+.navbar-right{
+    padding-right: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a-element{
+    padding: 15px;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 86vh;
+    background-image: url("hotel.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.home-left{
+    width: 50vw;
+    text-align: right;
+    padding-left: 150px;
+}
+.home-right{
+    width: 50vw;
+    padding-top: 40vw;
+    text-align: right;
+    padding-right: 4vw;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.time-p{
+    border-style: dotted;
+}
+.image-logo{
+    height: 40px;
+    padding-top: 20px;
+}
+.home-h1{
+ font-family: 'Encode Sans Condensed', sans-serif;
+ font-size: 20px;
+ letter-spacing: 6px;
+}
+.home-p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+.services{
+    padding: 50px;
+    text-align: center
+    ;
+}
+.ser-h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(20, 230, 160);
+    letter-spacing: 3px;
+    font-style: italic;
+}
+.services-sub-cont{
+    display: flex;
+    flex-direction: row;
+}
+.services-card{
+    border: 2px solid green;
+    margin: 23px;
+    padding: 20px;
+    width: 310px;
+}
+.sc-h1{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+.sc-p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+.contact{
+    text-align: center;
+}
+.contact-info{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+.test-logo{
+    height: 50px;
+}
+.social-icon-img{
+    height: 50px;
+    padding: 20px;
+}

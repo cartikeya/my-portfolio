@@ -1,0 +1,11 @@
+.nav-logo{
+    height: 50px;
+}
+.mass-body{
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIqL3WqxFnEyf5oW_kpyUnYAQD5HEcXJpN5w&usqp=CAU');
+    background-size: cover; 
+} 
+.box{
+    border: 2px solid red;
+}

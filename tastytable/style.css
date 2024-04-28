@@ -1,0 +1,17 @@
+.item-nav{
+    color: rgb(0, 0, 0);
+}
+.item-nav:hover{
+    color: blueviolet;
+}
+.anchor{
+    display: flex;
+    align-items: center;
+    margin-left: 37vw;
+}
+.img{
+    height: 100;  
+    width: 20;
+    padding-top: 15vh;
+    padding-left: 50vh;
+}

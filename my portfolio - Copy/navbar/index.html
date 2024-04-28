@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My sample Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&family=Source+Code+Pro&family=Ubuntu&display=swap');
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.navbar-left{
+    padding-left: 30px;
+}
+.navbar-right{
+    padding-right: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.a-element{
+    padding: 15px;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 86vh;
+    background-color: black;
+    color: white;
+
+}
+.home-left{
+    width: 50vw;
+    text-align: right;
+    padding-left: 150px;
+}
+.home-right{
+    width: 50vw;
+    padding-left: 100px;
+    
+    
+}
+.image-logo{
+    height: 40px;
+    padding-top: 20px;
+}
+.home-h1{
+ font-family: 'Encode Sans Condensed', sans-serif;
+ font-size: 20px;
+ letter-spacing: 6px;
+}
+.home-p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+.services{
+    padding: 50px;
+    text-align: center
+    ;
+}
+.ser-h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(20, 230, 160);
+    letter-spacing: 3px;
+    font-style: italic;
+}
+.services-sub-cont{
+    display: flex;
+    flex-direction: row;
+}
+.services-card{
+    border: 2px solid green;
+    margin: 23px;
+    padding: 20px;
+    width: 310px;
+}
+.sc-h1{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+.sc-p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+.contact{
+    text-align: center;
+}
+.contact-info{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+.social-icon-img{
+    height: 50px;
+    padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+      <div class="navbar-left">
+        <img class="image-logo" src="https://res.cloudinary.com/dboou1pyn/image/upload/f_auto,q_auto/ruvukff4faz22q9kowql" alt="logo">
+           </div>
+      <div class="navbar-right">
+        <a class="a-element">Home</a>
+        <a class="a-element">About</a>
+        <a class="a-element">services</a>
+        <a class="a-element">Contact</a>
+      </div>
+    </div>
+    <div class="home">
+        <div class="home-left">
+            <h1 class="home-h1">Lavu Cartikeya</h1>
+            <p class="home-p">Hello, I'm Cartikeya, a passionate Bachelor's degree canditate in Cyber Security at the Raghu Engineering College in Visakhapatnam. I'm currently studying 1st Year and pursuing Web development online course.
+              I also started learning C language and I have done 20+ problems in C. My ultimate Aim is to be a Full Stack developer by the end of 1st year & Start free lancing. </p>
+        </div>
+        <div class="home-right">
+         <img src="https://res.cloudinary.com/dboou1pyn/image/upload/f_auto,q_auto/v1hscq9yqdsbelwtstmx" alt="My Logo" height="300" width="350">
+        </div>
+
+    </div>
+    <div class="services">
+      <h1 class="ser-h1">SERVICES WE OFFER</h1>
+      <div class="services-sub-cont">
+        <div class="services-card">
+          <h1 class="sc-h1">Web designing</h1>
+          <p class="sc-p">As a passionate web designer, I'm dedicated to crafting visually appealing, user-friendly websites. If you're in need of a digital presence that stands out, I'm here to help.</p>
+      </div>
+        <div class="services-card">
+          <h1 class="sc-h1">Video Editng</h1>
+          <p class="sc-p">Enhance your videos and captivate your audience with my video editing services. Whether it's for a personal project or business promotion, I'm here to help you achieve your video goals. Get in touch, and let's bring your vision to the screen.</p>   
+        </div>
+        <div class="services-card">
+          <h1 class="sc-h1"> PC Issues</h1>
+          <p class="sc-p">For efficient and reliable computer issue resolution, I'm your go-to professional. Whether it's a slow PC, malware concerns, or any other tech hiccup, I've got the expertise to fix it. Reach out and let's get your systems running smoothly.</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="contact-info">
+        <h1 class="ser-h1">CONTACT US</h1>
+        <p>Lavu Cartikeya</p>
+        <p>+91 8688131246</p>
+        <p>cartikeya.official@gmail.com</p>
+      </div>
+      <div class="social-icons">
+        <div class="social-icon">
+          <a href="https://www.instagram.com/cartikeya_0703/">
+            <img src="data:image/jpeg;base64,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" class="social-icon-img">
+          </a>
+          <a href="https://www.twitter.com/cartikeya">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAY1BMVEUAAAD///+CgoIFBQXw8PBmZmb29vb8/Pzc3Nzm5uY0NDTV1dVGRka/v79QUFARERHJycmbm5u3t7dcXFwmJibPz8+ioqJ5eXk6OjqOjo6urq5wcHBLS0sdHR1hYWEZGRktLS2ClJEfAAAE/UlEQVRoge2aWWPiIBCAtdFEbTT1aNX1yv//ldtqZU5gIHH3Jd8jAhMc5mBgNBoYGBgY6Jn6+BZjmjOvmFbrNB9HyRD+YZrjMInKnhxSRf/hU6jLHo2m8YW/J4o+8gnWvp7ruPA/SaJPfPjG3/czLvyUIPpcscGfod5lVHa1M4tu+WzzYPc6vvDwBBi+dydNuL/YHBKryt/ZuPIcG7GMC7epnE9UxYc12MUst9MH1yPaNmVtEP3Fv9hj2IQV3pxbda5ZfBa7YRP2WEewq7FzDJjpA2HY1k2C/SAscYe3beQPXHHRQcMmzNQP3qLWKujYd9yn2O1y1OKxsD3Xxtl2PCJOWrtsqvKFa8YW61dgwz1zuUoQzVReuFmxk9z7xm64slNCwA/422FX4z1UedyUiNjej/TR4l19dM3YbOeqexZx+Kj1CkN2NSwRe8qlMmzPRUddQWwBE9dK9rBc0pmLths2Aasclkhm545dRuxI2PSCJwJH9qb+H3cabtilPdFgkCVCVMGO/YMMmDHRlSXgecC7egJL8KlchP5rvmg6G+waEmVhfmsqbuSCl/jlmomV75RG1j8PonI4zeD/41flImJr1p8G8RXQLFQuDDv1BKOBIwMEzhaL+Q5Ti94Mm4CXCIGTRNlGGHZSxPZT64ET/x9Lnop3MWwCWSJEldBxvZNhE/Tcsfaf3TLCphfsK8F03nyi087JEUiuBIsSjuxBVsT2gxOJsUuPC77F7nyEJsoBn4jml2dry/Pwb2bZYdOLnkgIR4oz6t646LmjyIeTC1EWiMohkWDpQn+GTcAxsnQqJ4686haxA+iJBFZ52b5K9k1PJBKLApkcdM3aTohd0VW+09O3vsEqh8SEHJ/6dy1P9IrEv1F5rZ9VPtVP6huSSLjsZIG9XvJ52wwOnJA7TtVP6h2scgjV1jpQNwpsUvD/6oGub65IyhhKSKY6UGewlUMiQQLdq1R+ItkKpEhY5bNejiWCA0uUoECcVO3NoRBpuVP5JaHam4U8jpTuN1I+7l/l2i0WRBVSJOlbtMgN70AiESv9dcB3cQgViZepXBQsncpdahws/XVA3ETEVN5P8eGH4J0h2PMrVN7yK8b5WU0kbjjQ2W6mYjS8YFme6XGsffbEt7/V1j+jHfF24GdWPZEIVHuzEIb9CJN6IqGU/jogDPtXkSQ3B3vWD615+G8iSNR2UYWcYLqp/DpmoD+SXG3ctI+ddDkurHjYfMc+Qy/lb9TWZA48bM5JXYPc0Tp7Lvqx8thNBPF3TuW1fo2ehihkidtNcjx1rSe1NQlxCaLcbmKVQ1T5UlsT8Bk2Ra9IzGPDwgjD1k+ZxBLcH0PqQMlFgZBhE4gLd4nEXm21IcrU/oP9Ru2FY03azegl5VEQVi5EFWwkSXdW3KcEaymN+kbiom6EOCIVD28Xkkg494OLAtUlNB6T/HaAXG047eRYuc2wCVi5XVRuNGxCqx4MklW+5aJNcZC4g1prNVR7D0yytWKnnwXXKRNJw7aJZonEbvFgl1DtLUQqbveH+KsnT4h7DJuLeO2X8BQ4cGZ7ztYGhnd7OxB/Xxso/XV9FBR/bOlVubjlTH22cOO7ReJ7D82v+tKPsbVyW0jRH7Tx4llWKd5bnoBZCzmqEYZtDj0YvSIU+TdFKp55xRh/ws9VLndJbk7fauIoTOXFraBkSr7PFeM1xd6BgYGB/81f/YY2C+JAbjgAAAAASUVORK5CYII=" class="social-icon-img">
+          </a>
+          <a href="https://www.linked.com/in/cartikeya-lavu=59577828a">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="social-icon-img">
+          </a>
+
+        </div>
+        
+
+      </div>
+    </div>
+</body>
+</html>

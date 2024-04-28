@@ -1,0 +1,25 @@
+.box{
+    border-color: brown;
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    margin: 60px;
+    width: 500px;
+    height: 400px;
+
+
+    
+
+}
+
+
+.heading{
+    border-color: brown;
+    border-width: 3px;
+    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: green;
+
+
+}
